@@ -32,9 +32,8 @@ hr.solid {
 			z-index: 1;
  }
 
-.page-header {
-  color: #222529;
-  border-color: #222529;
+.header-links {
+  padding-bottom: 20px;
 }
 
 .page-footer {
