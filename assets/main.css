@@ -124,6 +124,19 @@ h6 {
   font-size: 0.6rem;
 }
 
+.main-header {
+  -webkit-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  line-height: 2;
+  color: black;
+}
+
+.hide-link {
+  text-decoration: none;
+}
 
 #header {
     text-transform: uppercase;
@@ -132,3 +145,6 @@ h6 {
     line-height: 2;
 }
 
+.main-header:hover {
+  background-color: rgba(0,0,0,0.3);
+}
